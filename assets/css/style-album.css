@@ -1,0 +1,101 @@
+/* Album */
+/* progress bar volume*/
+
+.progress-bar-volume {
+  width: 93px;
+  height: 7px;
+}
+
+/* progress bar song */
+.progress-bar-song {
+  width: 555px;
+  height: 4px;
+}
+
+.sidebar-container {
+  max-width: 323px;
+}
+.padding-header {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.artist-info {
+  font-size: 14px;
+  font-weight: 500;
+  span {
+    color: #b5b5b5;
+    font-weight: 200;
+  }
+}
+.perfect-circle-album {
+  width: 50px;
+  height: 50px;
+  background-color: #3be477;
+  border-radius: 50% !important;
+  border: none;
+}
+.title-album {
+  font-weight: 900;
+}
+.clock {
+  margin-right: 3.5rem;
+}
+hr {
+  opacity: 0.1;
+}
+.glass-card {
+  backdrop-filter: blur(12px) saturate(152%);
+  -webkit-backdrop-filter: blur(12px) saturate(152%);
+  background-color: rgba(0, 0, 0, 0.526);
+}
+
+:root {
+  --album-color: rgb(36, 36, 36); /* colore di default */
+}
+
+.background-center {
+  background: linear-gradient(
+    360deg,
+    var(--album-color) 0%,
+
+    rgba(18, 18, 18, 1) 100%
+  );
+}
+
+.footer-spacing {
+  margin-bottom: 120px;
+}
+/* footer */
+a {
+  text-decoration: none;
+  color: #b1b1b1;
+}
+
+.bottom-links a,
+p {
+  font-size: 14px;
+}
+
+/* social icon background circle */
+.social-icons-bg-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #292929;
+  border-radius: 50% !important;
+  vertical-align: middle;
+}
+.selected {
+  background-color: #6867674f;
+}
+.progress-bar {
+  background-color: #1db954 !important;
+}
+.progress-bar-volume {
+  cursor: pointer;
+}
+.volume-active {
+  width: var(--volume-width) !important;
+  transition: width 0.1s ease;
+}
