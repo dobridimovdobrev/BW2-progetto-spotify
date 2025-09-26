@@ -15,7 +15,7 @@ const artistDesc = document.getElementById("desc");
 const fansText = fansCount.firstElementChild;
 
 console.log(card);
-
+console.log(artistDesc);
 const artistDescriptions = [
   "Artista versatile con uno stile unico che mescola influenze moderne e classiche, conquistando il pubblico con performance coinvolgenti.",
   "Talento emergente nel panorama musicale internazionale, noto per le sue melodie accattivanti e i testi profondi.",

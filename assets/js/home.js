@@ -73,7 +73,7 @@ async function loadFavoriteMixes() {
       mixContainer.appendChild(card);
       /* passare playlist id al click della card */
       card.addEventListener("click", () => {
-        const playlistId = item.id;
+        const playlistId = item.album.id;
         window.location.href = `album.html?playlistId=${playlistId}`;
 
       });

@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-xl black fixed">
       <div class="container-fluid">
         <!-- logo -->
-        <a class="navbar-brand">
+        <a href="./index.html" class="navbar-brand">
           <img src="./assets/imgs/logo.svg" alt="logo" width="100" class="logo" />
         </a>
 
@@ -144,7 +144,7 @@
   <main class="container-fluid text-white">
     <!-- column left -->
     <div class="row flex-nowrap">
-      <div class="sidebar-container fixed">
+      <div class="sidebar-container fixed d-none d-md-block">
         <div class="greybody d-flex flex-column rounded-2 h-100">
           <div class="d-flex grey-body justify-content-between align-items-center p-3 mb-1">
             <h4 class="m-0 fs-6">La tua libreria</h4>
@@ -415,7 +415,7 @@
       </div>
 
       <!-- column right -->
-      <div class=" sidebar-container fixed">
+      <div class=" sidebar-container d-none d-xxl-block fixed">
         <div class="greybody rounded-2 playlist-container-right h-100">
           <div class="d-flex grey-body justify-content-between align-items-center p-2">
             <h4 class="m-0 fs-6">Mix Genere Musicale</h4>
@@ -478,7 +478,7 @@
                   </div>
                 </div>
                 <!-- description -->
-                <p class="card-text mt-2 text-color">Some quick example text to build on the card title and make up the
+                <p id="desc" class="card-text mt-2 text-color">Some quick example text to build on the card title and make up the
                   bulk of the card’s
                   content.</p>
               </div>
